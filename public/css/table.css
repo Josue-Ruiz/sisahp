@@ -1,0 +1,18 @@
+
+.header-table{
+	background: #97AFCC;
+	color: white;
+}
+.data-table{
+	font-family: Arial, sans-serif;
+  	font-size: 16px;
+	color: #010454;
+}
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+ background-color: #E7E7F7;
+}
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+ background-color: #EEE;
+}
