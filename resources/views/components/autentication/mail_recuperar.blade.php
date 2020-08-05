@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Siva | @section('titulo') Autenticacion @show</title>
+    <title>Sisa | @section('titulo') Autenticacion @show</title>
     <link rel="shortcut icon" href="{{ asset('images/photos.png') }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ asset('fonts/material-icon/css/material-design-iconic-font.min.css') }}">
     <style>/* @extend display-flex; */
@@ -659,7 +659,7 @@ label.valid {
                       <a href="#" class="logo"><img style="margin-bottom: 20px; " src="{{ $message->embed('images/ss_logo.png') }}" alt="logotipo" width="80px" height="80px"/></a> 
                         <h2 class="form-title">Hola, {{$usuario}}</h2>
                         <hr>
-                        <p class="description">Hemos recibido una solicitud para modificar la contraseña de Siva. Has Click en el siguiente enlace para restablecer la contraseña </p>
+                        <p class="description">Hemos recibido una solicitud para modificar la contraseña de Sisa. Has Click en el siguiente enlace para restablecer la contraseña </p>
                         <a href="{{ route('recover_password',['token'=>$token]) }}" class="form-submit btn-reset">Restablecer Contraseña</a>
                         <p class="footer-mail">Secretaria de Salud., 1200 Park Place, Suite 400, Col. Centro, CP 29000, CHIS. </p>
                     </div>

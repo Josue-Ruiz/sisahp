@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>SISA | Sistema de vigilancia de agua.</title>
+    <title>SISA | Sistema de saneamiento de agua.</title>
     <link rel="shortcut icon" href="{{ asset('images/gotita.png') }}" type="image/x-icon">
 
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">

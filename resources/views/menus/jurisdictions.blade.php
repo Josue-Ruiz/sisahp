@@ -17,7 +17,6 @@
 
   <li><a>Exhortos<span class="fa fa-chevron-down"></span></a>
         <ul class="nav child_menu">
-          <li><a href="{{ route('exhortos.index') }}">Capturar</a></li>
           <li><a href="{{ route('exhortos-eficiencia-cloracion.index') }}">Reportes</a></li>
         </ul>
   </li>
